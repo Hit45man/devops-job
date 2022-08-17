@@ -8,4 +8,4 @@ RUN unzip icream.zip
 RUN cp -rvf ice-cream-shop-website-template/* .
 RUN rm -rf icream.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 22
